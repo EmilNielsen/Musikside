@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.sidenav {
+.sideNav__bar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -16,7 +16,8 @@
   padding-top: 60px;
 }
 
-.sidenav a {
+
+.sideNav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -25,11 +26,11 @@
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.sideNav a:hover {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sideNav .sideNav__close {
   position: absolute;
   top: 0;
   right: 25px;

@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    function openNav() {
-        document.getElementById("sideNav").style.width = "250px";
-    }
+    let nav = document.querySelector(".sideNav");
+    let sideNavBar = document.querySelector(".sideNav__bar");
 
-    function closeNav() {
-        document.getElementById("sideNav").style.width = "0";
-    }
+    nav.addEventListener("click", (event) => {
+        if (event.target.className == "sideNav__open") {
+            sideNavBar.style.width = "250px";
+        } else if (event.target.className == "sideNav__close") {
+            sideNavBar.style.width = "0";
+        }
+    })
 });

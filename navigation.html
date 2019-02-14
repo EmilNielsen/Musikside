@@ -10,14 +10,16 @@
 
 <body>
 
-    <div id="sideNav" class="sidenav sidenav__bar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#" class="">Home</a>
-        <a href="#" class="">Kontakt</a>
-        <a href="#" class="">Produkter</a>
-    </div>
-
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <nav class="sideNav">
+        <div class="sideNav__bar">
+            <a href="javascript:void(0)" class="sideNav__close">&times;</a>
+            <a href="#" class="sideNav__link">Home</a>
+            <a href="#" class="sideNav__link">Kontakt</a>
+            <a href="#" class="sideNav__link">Produkter</a>
+        </div>
+        
+        <span class="sideNav__open">&#9776;</span>
+    </nav>
 
     <script src="JS/navigation.js"></script>
 </body>
