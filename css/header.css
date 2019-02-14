@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+}
+
+.header {
+	width: 100%;
+	height: 6.25rem;
+	display: flex;
+	background-image: linear-gradient(to right, pink, hotpink, deeppink);
+}
