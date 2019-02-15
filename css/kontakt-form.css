@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form__container{
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to bottom, lightblue, blue, darkblue);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form__info{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.form__info p, input{
+    margin-bottom: 10px;
+}
+
+.form__info input{
+    width: 200px;
+}
+
+.form__info textarea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.form__button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px 10px 40px;
+    background-image: linear-gradient(to bottom, blue, lightblue);
+    border: 2px solid black;
+    border-radius: 10px;
+}
