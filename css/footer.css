@@ -1,0 +1,6 @@
+.footer-music{
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    background-image: linear-gradient(to right, darkblue, blue, lightblue)
+}
